@@ -18,9 +18,10 @@ nav {
 }
 
 h3{
-    color:var(--primary-orange);
+    color:#17a2b8;
     font-weight: bold;
 }
+
 
 /********** Navbar **********/
 
@@ -28,6 +29,12 @@ h3{
     width: 5.25rem;
     border-radius: 50%;
     margin: auto;
+}
+
+.logo-name {
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 nav a.nav-link {
@@ -137,6 +144,14 @@ nav ul li {
 .logo-about {
     width: 15.25rem;
     border-radius: 50%;
+    align-self: center;
+}
+
+.name-about {
+    margin: 10px;
+    font-weight: bold ;
+    text-align: center !important;
+    font-size: 25px;
 }
 
 /********** SERVICES **********/
@@ -185,7 +200,64 @@ nav ul li {
     margin: 20px;
 }
 
-.col {
+.experience p {
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.experience hr {
+    border-top-style: dotted;
+    border-color: lightgray;
+    width: 50%;
+    border-width: 6px;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+  }
+
+.landscape-img {
+    max-width: 100%;
+    padding: 30px;
+}
+
+.portrait-img{
+    max-width: 50% !important;
+}
+
+.potrait-img-sm {
+    max-width: 100% !important;
+    padding-left: 3rem;
+}
+
+.experience-button-right {
+    float: right;
+    bottom: 0px;
+}
+
+.experience-button {
+    margin: 10px;
+    margin-left: 60%;
+}
+
+.col-text {
+    text-align: justify !important;
+}
+
+.experience-article {
+    margin-top: 3rem;
+}
+
+.experience li{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+@supports ((-webkit-hyphens:auto) or (hyphens:auto)) {
+	#text {
+		text-align: justify;
+		-webkit-hyphens: auto; /* A día de hoy aún es necesario el prefijo para soportar a Safari */
+		hyphens: auto;
+	}
 }
 
 @media(max-width : 1102px){
@@ -210,6 +282,13 @@ nav ul li {
         margin-top: 2rem;
     }
 
+    /********** ABOUT **********/
+
+    .about p {
+        text-align: justify;
+    }
+
+
     /********** SERVICES **********/
 
     .card-props {
@@ -233,4 +312,16 @@ nav ul li {
         padding-top: 2px;
         position: relative;
     }
+
+    .last-card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+    
+    }
+
+        /********** Experience **********/
+   .lower-row {
+       padding-top: 3rem;
+   }
 }

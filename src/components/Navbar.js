@@ -11,7 +11,7 @@ const Navbar = () => {
             <div className = 'container'>
                 <a className="navbar-brand" href="#"> 
                     <img className = "logo" src = {logo} alt = "Logo..."/> 
-                    <h4>Ing. Abraham Luna</h4>
+                    <h4>Ing. Abraham Luna Cázares</h4>
                 </a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <FontAwesomeIcon icon = {faBars} style = {{color : 'white'}}/>
@@ -28,7 +28,7 @@ const Navbar = () => {
                             <a className="nav-link" href="#">¿Qué puedo hacer?</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">¿Qué he hecho?</a>
+                            <a className="nav-link" href="#">Mi experiencia</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">Contácto</a>
