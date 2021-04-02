@@ -87,7 +87,7 @@ const Experience = () => {
                     <div className = "col col-lg-6 col-md-12 col-sm-12 col-12 col-content d-flex flex-column lower-row">
                         <h3>Inspector de calidad</h3>
                         <p className = "col-text">Antes de convertirme en desarrollador, trabajé varios meses como inspector de calidad en la empresa maquiladora 
-                        "Conductores Tecnológicos de Juárez" o mejor conocida como "Contec". Ahí aprendí aspectos importantes sobre las 
+                        Conductores Tecnológicos de Juárez, mejor conocida como "Contec". Ahí aprendí aspectos importantes sobre las 
                         certificaciones ISO tales como:</p>
                         <ul>
                             <li>Medición y tolerancia de planos.</li>
