@@ -12,7 +12,7 @@ import { faPlayCircle } from '@fortawesome/free-solid-svg-icons'
 
 const Experience = () => {
     return (
-        <div className = "container experience">
+        <div className = "container experience" id = "experienceId">
                 <h2>Mi experiencia</h2>
                 <p>
                     Te invito a que veas los proyectos reales que he realizado, los logros que he obtenido y
@@ -52,7 +52,7 @@ const Experience = () => {
                            aceptación por parte de los usuarios. Estas Apps fueron hechas para Android de manera nativa con Java y Kotlin.
                            Además, 2 de las 3 cuentan con una base de datos relacional hecha en SQLite.
                         </p>
-                        <a href="#" class="btn btn-info experience-button mt-auto">Ir a la Playstore  <FontAwesomeIcon icon={faPlayCircle} /></a>                                       
+                        <a href="https://play.google.com/store/apps/developer?id=Software+Tizona" target = "_blank" class="btn btn-info experience-button mt-auto">Ir a la Playstore  <FontAwesomeIcon icon={faPlayCircle} /></a>                                       
                     </div>
                 </div>
 

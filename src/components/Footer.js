@@ -8,7 +8,7 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
 const Footer = () => {
     return (
-        <div class="footer-dark">
+        <div class="footer-dark" id = "footerId">
             <footer>
                 <div class="container">
                     <div class="row">
@@ -44,10 +44,9 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div class="col item social">
-                            <a href="#"><FontAwesomeIcon icon={faGooglePlay}/></a>
-                            <a href="#"><FontAwesomeIcon icon={faGithub}/></a>
-                            <a href="#"><FontAwesomeIcon icon={faLinkedin}/></a>
-                            <a href="#"><FontAwesomeIcon icon={faInstagram}/></a>
+                            <a href="https://play.google.com/store/apps/developer?id=Software+Tizona" target = "_blank"><FontAwesomeIcon icon={faGooglePlay}/></a>
+                            <a href="https://github.com/AbrahamLCodes" target = "_blank"><FontAwesomeIcon icon={faGithub}/></a>
+                            <a href="https://www.instagram.com/abraham.l.c/?hl=es-la" target = "_blank"><FontAwesomeIcon icon={faInstagram}/></a>
                         </div>
                     </div>
                     <p class="copyright">Abraham Luna Cázares © 2021</p>
