@@ -57,9 +57,9 @@ nav ul li {
 }
 
 .navbar-brand h4{
-    margin-top: 5px;
-    color: whitesmoke;
-    font-weight: normal;
+    color: whitesmoke !important;
+    font-weight: normal !important;
+    padding-top: 0 !important;
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
@@ -277,7 +277,7 @@ nav ul li {
     text-align: left !important;
     font-family: inherit !important;
     font-size: inherit !important;
-
+    margin: 0 !important;
   }
   
   .footer-dark ul a {
@@ -353,7 +353,7 @@ nav ul li {
   }
 
 
-/********** MOBILE Y DESKTOP ITEM **********/
+/********** MOBILEDESKTOP **********/
 
 .mobile-desktop {
     background-color: whitesmoke;  
@@ -361,47 +361,61 @@ nav ul li {
     width: 100%;  
 }
 
-.mobile-desktop h2, h3, h4 {
+.mobile-desktop h2, h3 {
     text-align: center;
     padding: 1rem;
     color: #17a2b8;
     padding-top: 3rem;  
 }
 
+.mobile-desktop h4 {
+    text-align: center;
+    padding: 1rem;
+    color: #17a2b8;
+}
+
 .mobile-desktop p {
+    text-align: center;
+    margin: 1rem;
+    font-size: large;
+}
+
+.carousel-inner p {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 1.3rem;
     margin-bottom: 4rem;
+    font-size: medium;
 }
 
 .carousel-mobile {
-    height: 700px !important;
+    height: 550px !important;
 }
+
 
 .carousel-so {
-    height: 680px;
-}
-
-.carousel-item-mainimg {
-    width: 12.95%;
-    margin-left: 43%;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    height: 550px;
 }
 
 .carousel-main-imgs-container {
     margin-top: 3rem;
 }
 
+.carousel-item-mainimg {
+    width: 10%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
 .carousel-item-mainimgs {
-    width: 27.5%;
+    width: 20.8%;
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
 
 .carousel-item-secondaryimgs {
-    width: 15%;
+    width: 14.7%;
     margin: 1rem;
 }
 
@@ -513,18 +527,12 @@ nav ul li {
 
    /********** MobileDesktop **********/
 
-   .carousel-mobile {
-        height: 650px !important;
-    }
 
-    .carousel-so {
-        height: 690px;
-    }
    .carousel-inner p {
        text-align: center;
        margin-left: 40px;
        margin-right: 40px;
-       font-size: 16px;
+       font-size: small;
    }
 
    .carousel-so .carousel-item-secondaryimgs {
@@ -537,10 +545,4 @@ nav ul li {
         margin: 1rem;
     }
 
-    .carousel-item-mainimg {
-        width: 16.95%;
-        margin-left: 43%;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-    }
 }

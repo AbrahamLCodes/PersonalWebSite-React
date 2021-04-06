@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 import AppleIcon from '../images/apple.png'
 import AndroidIcon from '../images/android.png'
 
-import RNIcon from '../images/structure.png'
+import RNIcon from '../images/react.svg'
 import KotlinSVG from '../images/kotlin.svg'
 import JavaSVG from '../images/java.svg'
 import SwiftSVG from '../images/swift.svg'
@@ -53,7 +53,9 @@ const MobileDesktop = () => {
                     </ol>
                     <div className="carousel-inner carousel-mobile">
                         <div className="carousel-item active">
-                            <img className="carousel-item-mainimg" src={AndroidIcon} alt="Android" />
+                            <div className="d-flex justify-content-center">
+                                <img className="carousel-item-mainimg" src={AndroidIcon} alt="Android" />
+                            </div>
                             <div className=" row">
                                 <div className="d-flex justify-content-end col col-6">
                                     <img className="carousel-item-secondaryimgs" src={KotlinSVG} />
@@ -74,7 +76,9 @@ const MobileDesktop = () => {
                         </div>
 
                         <div className="carousel-item">
-                            <img className="carousel-item-mainimg" src={AppleIcon} alt="Android" />
+                            <div className="d-flex justify-content-center">
+                                 <img className="carousel-item-mainimg" src={AppleIcon} alt="Android" />
+                            </div>
                             <div className="d-flex justify-content-center">
                                 <img className="carousel-item-secondaryimg" src={SwiftSVG} />
                             </div>
@@ -89,7 +93,7 @@ const MobileDesktop = () => {
                         </div>
 
                         <div className="carousel-item ">
-                            <div className="row">
+                            <div className=" row">
                                 <div className="d-flex justify-content-end col col-6">
                                     <img className="carousel-item-mainimgs" src={AndroidIcon} />
                                 </div>
@@ -140,7 +144,9 @@ const MobileDesktop = () => {
                     </ol>
                     <div className="carousel-inner carousel-so">
                         <div className="carousel-item active">
-                            <img className="carousel-item-mainimg" src={WindowsSVG} alt="Android" />
+                            <div className = "d-flex justify-content-center">
+                                <img className="carousel-item-mainimg" src={WindowsSVG} alt="Android" />
+                            </div>
                             <div className=" row">
                                 <div className = "d-flex justify-content-end col col-4">
                                     <img className="carousel-item-secondaryimgs" src={KotlinSVG} />
@@ -164,7 +170,9 @@ const MobileDesktop = () => {
                         </div>
 
                         <div className="carousel-item">
-                            <img className="carousel-item-mainimg" src={MacOsIcon} alt="Android" />
+                            <div className = "d-flex justify-content-center">
+                                <img className="carousel-item-mainimg" src={MacOsIcon} alt="Android" />
+                            </div>
                             <div className=" row">
                                 <div className = "d-flex justify-content-end col col-4">
                                     <img className="carousel-item-secondaryimgs" src={SwiftSVG} />
@@ -187,7 +195,9 @@ const MobileDesktop = () => {
                         </div>
 
                         <div className="carousel-item">
-                            <img className="carousel-item-mainimg" src={GnuIcon} alt="Android" />
+                            <div className = "d-flex justify-content-center">
+                                <img className="carousel-item-mainimg" src={GnuIcon} alt="Android" />
+                            </div>
                             <div className=" row">
                                 <div className="d-flex justify-content-end col col-6">
                                     <img className="carousel-gnu-imgs" src={KotlinSVG} />
