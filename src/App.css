@@ -525,6 +525,11 @@ nav ul li {
     width: 100%;  
 }
 
+.desarrolloweb .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .desarrolloweb h2, h3 {
     text-align: center;
     padding: 1rem;
@@ -543,6 +548,31 @@ nav ul li {
     margin: 1rem;
     font-size: large;
 }
+
+.carousel-front {
+    height: 27rem;
+}
+
+.carousel-back {
+    height: 24rem;
+}
+
+.desarrolloweb .carousel-item-mainimgs {
+    width: 15.8%;
+    margin: 1rem !important;
+    align-self: center;
+}
+
+.desarrolloweb .footer-dark {
+    margin-top: 0;
+}
+
+.desarrolloweb .white-background {
+    background: #fff;
+    width: 30%;
+    padding: 1rem;
+}
+
 
 
 
