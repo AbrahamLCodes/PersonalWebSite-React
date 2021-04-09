@@ -31,7 +31,7 @@ const Services = () => {
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title">Bases de Datos y Arquitectura</h5>
                                 <p class="card-text">Con MySql, PostgreSql y Mongo puedo gestionar la información de sistemas existentes o en desarrollo. En la nube o local.</p>
-                                <a href="#" class="btn mt-auto btn-info ">Más información</a>
+                                <Link to={"/basesarqui"} class="btn mt-auto btn-info card-btn">Más información</Link>
                             </div>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ const Services = () => {
                                 <h5 class="card-title">Desarrollo Web</h5>
                                 <p class="card-text">Con ReactJS y Bootstrap para el Front-End y NodeJs, C#, Java o Go para el Back-End
                                                         puedo desarrollar o gestionar soluciones Web.</p>
-                                <a href="#" class="btn mt-auto btn-info card-btn">Más información</a>
+                                <Link to={"/desarrolloweb"} class="btn mt-auto btn-info card-btn">Más información</Link>
                             </div>
                         </div>
                     </div>

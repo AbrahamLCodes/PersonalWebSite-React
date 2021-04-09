@@ -1,11 +1,13 @@
 import React from 'react'
-import Header from '../components/Header'
+
 import Particles from 'react-particles-js'
-import About from '../components/About'
-import Services from '../components/Services'
-import Experience from '../components/Experience'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
+import Header from '../homecomponents/Header'
+import About from '../homecomponents/About'
+import Services from '../homecomponents/Services'
+import Experience from '../homecomponents/Experience'
+
+import Navbar from '../generalcomponents/Navbar'
+import Footer from '../generalcomponents/Footer'
 
 const home = () => {
     return (

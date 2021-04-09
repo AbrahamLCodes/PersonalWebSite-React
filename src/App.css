@@ -263,6 +263,7 @@ nav ul li {
     margin-bottom:12px;
     font-weight:bold;
     font-size:16px;
+    text-align: left;
   }
   
   .footer-dark ul {
@@ -392,7 +393,6 @@ nav ul li {
     height: 550px !important;
 }
 
-
 .carousel-so {
     height: 550px;
 }
@@ -449,7 +449,101 @@ nav ul li {
 
 .mobile-desktop .footer-dark {
     margin-top: 0;
-  }
+}
+
+/********** BASESARQUI **********/
+
+.bases-arqui {
+    background-color: whitesmoke;  
+    height: 100%;
+    width: 100%;  
+}
+
+.bases-arqui .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.bases-arqui h2, h3 {
+    text-align: center;
+    padding: 1rem;
+    color: #17a2b8;
+    padding-top: 3rem;  
+}
+
+.bases-arqui h4 {
+    text-align: center;
+    padding: 1rem;
+    color: #17a2b8;
+}
+
+.bases-arqui p {
+    text-align: center;
+    margin: 1rem;
+    font-size: large;
+}
+
+.carousel-bd {
+    height: 30rem;
+}
+
+.carousel-arqui {
+    height: 25rem;
+}
+
+.bases-arqui .carousel-item-secondaryimgs {
+    width: 50.7%;
+    margin: 1rem;
+    margin-top: 3rem;
+}
+
+.bases-arqui .carousel-item-secondaryimg {
+    width: 35.5%;
+    margin: 1rem;
+    margin-top: 3rem;
+}
+
+.white-background {
+    background: #fff;
+    padding: 1rem;
+}
+
+
+.carousel-arqui  h3{
+    color: whitesmoke;
+}
+
+.bases-arqui .footer-dark {
+    margin-top: 0;
+}
+
+/********** DESARROLLOWEB **********/
+
+.desarrolloweb {
+    background-color: whitesmoke;  
+    height: 100%;
+    width: 100%;  
+}
+
+.desarrolloweb h2, h3 {
+    text-align: center;
+    padding: 1rem;
+    color: #17a2b8;
+    padding-top: 3rem;  
+}
+
+.desarrolloweb h4 {
+    text-align: center;
+    padding: 1rem;
+    color: #17a2b8;
+}
+
+.desarrolloweb p {
+    text-align: center;
+    margin: 1rem;
+    font-size: large;
+}
+
 
 
 @supports ((-webkit-hyphens:auto) or (hyphens:auto)) {
@@ -544,5 +638,7 @@ nav ul li {
         width: 20.3%;
         margin: 1rem;
     }
+
+    /********** MOBILEDESKTOP **********/
 
 }

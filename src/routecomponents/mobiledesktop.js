@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
+import Navbar from '../generalcomponents/Navbar'
+import Footer from '../generalcomponents/Footer'
 
 import AppleIcon from '../images/apple.png'
 import AndroidIcon from '../images/android.png'
