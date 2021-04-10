@@ -630,6 +630,38 @@ nav ul li {
     text-align: left;
 }
 
+/********** OTROS **********/
+
+.otros {
+    background-color: whitesmoke;  
+    height: 100%;
+    width: 100%;  
+}
+
+.otros .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.otros h2, h3 {
+    text-align: center;
+    padding: 1rem;
+    color: #17a2b8;
+    padding-top: 3rem;  
+}
+
+.otros h4 {
+    text-align: center;
+    padding: 1rem;
+    color: #17a2b8;
+}
+
+.otros p {
+    margin: 1rem;
+    font-size: large;
+}
+
+
 
 @supports ((-webkit-hyphens:auto) or (hyphens:auto)) {
 	#text {

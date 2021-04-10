@@ -66,7 +66,7 @@ const Services = () => {
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title">Otros </h5>
                                 <p class="card-text">Tengo conocimientos como Inspector de calidad en el sector industrial y de robótica a nivel microcontrolador.</p>
-                                <a href="#" class="btn mt-auto btn-info ">Más información</a>
+                                <Link to={"/otros"} class="btn mt-auto btn-info card-btn">Más información</Link>
                             </div>
                         </div>
                     </div>
