@@ -55,7 +55,7 @@ const Services = () => {
                                 <h5 class="card-title">Soporte Técnico y Redes</h5>
                                 <p class="card-text">Tengo conocimiento en redes y soporte técnico para brindar soporte, ayuda y conectividad en los diferentes departamentos
                                                         de las empresas.</p>
-                                <a href="#" class="btn mt-auto btn-info ">Más información</a>
+                                <Link to={"/soporte"} class="btn mt-auto btn-info card-btn">Más información</Link>
                             </div>
                         </div>
                     </div>

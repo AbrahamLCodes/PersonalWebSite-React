@@ -5,6 +5,7 @@ import Home from './routecomponents/home'
 import MobileDesktop from './routecomponents/mobiledesktop'
 import BasesArqui from './routecomponents/basesarqui'
 import Web from './routecomponents/web'
+import Soporte from './routecomponents/soporte'
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -20,6 +21,7 @@ function App() {
           <Route path = "/mobiledesktop" exact component = {() => <MobileDesktop />} />
           <Route path = "/basesarqui" exact component = {() => <BasesArqui/>} />
           <Route path = "/desarrolloweb" exact component = {() => <Web/>}/>
+          <Route path = "/soporte" exact component = {() => <Soporte/>}/>
         </Switch>
       </Router>
     </div>

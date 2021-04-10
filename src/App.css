@@ -573,7 +573,62 @@ nav ul li {
     padding: 1rem;
 }
 
+/********** SOPORTE **********/
 
+.soporte {
+    background-color: whitesmoke;  
+    height: 100%;
+    width: 100%;  
+}
+
+.soporte .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.soporte h2, h3 {
+    text-align: center;
+    padding: 1rem;
+    color: #17a2b8;
+    padding-top: 3rem;  
+}
+
+.soporte h4 {
+    text-align: center;
+    padding: 1rem;
+    color: #17a2b8;
+}
+
+.soporte p {
+    text-align: center;
+    margin: 1rem;
+    font-size: large;
+}
+
+.soporte ul {
+    margin: auto;
+    width: 50%;
+}
+
+.soporte li {
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+}
+
+.carousel-soporte {
+    height: 34rem;
+}
+
+.carousel-red {
+    height: 39rem;
+}
+
+.carousel-red p {
+    margin: auto;
+    width: 90%;
+    text-align: left;
+}
 
 
 @supports ((-webkit-hyphens:auto) or (hyphens:auto)) {
@@ -669,6 +724,21 @@ nav ul li {
         margin: 1rem;
     }
 
-    /********** MOBILEDESKTOP **********/
+    /********** SOPORTE **********/
+    .soporte ul {
+        margin: auto;
+        width: 80%;
+    }
+    
+    .soporte li {
+        font-size: small;
+    }
+    
+    .carousel-soporte {
+        height: 28rem;
+    }
 
+    .carousel-red {
+        height: 34rem;
+    }
 }
