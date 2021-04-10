@@ -8,27 +8,27 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
 const Footer = () => {
     return (
-        <div class="footer-dark" id = "footerId">
+        <div class="footer-dark" id = "footer">
             <footer>
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6 col-md-3 item">
                             <h3>Servicios</h3>
                             <ul>
-                                <li><a href="#">Desarrollo Móvil y Desktop</a></li>
-                                <li><a href="#">Bases de datos y Arquitectura</a></li>
-                                <li><a href="#">Desarrollo web</a></li>
-                                <li><a href="#">Soporte técnico y redes</a></li>
-                                <li><a href="#">Otros</a></li>
+                                <li><a href="/mobiledesktop">Desarrollo Móvil y Desktop</a></li>
+                                <li><a href="/basesarqui">Bases de datos y Arquitectura</a></li>
+                                <li><a href="/desarrolloweb">Desarrollo web</a></li>
+                                <li><a href="/soporte">Soporte técnico y redes</a></li>
+                                <li><a href="/otros">Otros</a></li>
                             </ul>
                         </div>
                         <div class="col-sm-6 col-md-3 item">
                             <h3>Apartados</h3>
                             <ul>
-                                <li><a href="#">Inicio</a></li>
-                                <li><a href="#">Acerca de mí</a></li>
-                                <li><a href="#">¿Qué puedo hacer?</a></li>
-                                <li><a href="#">Mi experiencia</a></li>
+                                <li><a href="/">Inicio</a></li>
+                                <li><a href="/#about">Acerca de mí</a></li>
+                                <li><a href="/#services">¿Qué puedo hacer?</a></li>
+                                <li><a href="/#experience">Mi experiencia</a></li>
 
                             </ul>
                         </div>

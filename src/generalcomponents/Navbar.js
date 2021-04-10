@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-dark">
             <div className = 'container'>
-                <a className="navbar-brand" href="#"> 
+                <a className="navbar-brand" href="/"> 
                     <img className = "logo" src = {logo} alt = "Logo..."/> 
                     <h4>Ing. Abraham Luna Cázares</h4>
                 </a>
@@ -19,19 +19,19 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item active">
-                            <a className="nav-link" href="#headerId">Inicio <span className="sr-only">(current)</span></a>
+                            <a className="nav-link" href="/#header">Inicio <span className="sr-only">(current)</span></a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#aboutId">Acerca de mí</a>
+                            <a className="nav-link" href="/#about">Acerca de mí</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#servicesId">¿Qué puedo hacer?</a>
+                            <a className="nav-link" href="/#services">¿Qué puedo hacer?</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#experienceId">Mi experiencia</a>
+                            <a className="nav-link" href="/#experience">Mi experiencia</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#footerId">Contácto</a>
+                            <a className="nav-link" href="#footer">Contácto</a>
                         </li>
                     </ul>
                 </div>

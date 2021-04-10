@@ -9,7 +9,7 @@ import { Link } from "react-router-dom"
 
 const Services = () => {
     return (
-        <div className="services" id="servicesId">
+        <div className="services" id="services">
             <h2>¿Qué puedo hacer?</h2>
             <div className="container-fluid d-flex justify-content-around">
                 <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-5 row-cols-xl-5">

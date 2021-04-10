@@ -12,7 +12,7 @@ import { faPlayCircle } from '@fortawesome/free-solid-svg-icons'
 
 const Experience = () => {
     return (
-        <div className = "container experience" id = "experienceId">
+        <div className = "container experience" id = "experience">
                 <h2>Mi experiencia</h2>
                 <p>
                     Te invito a que veas los proyectos reales que he realizado, los logros que he obtenido y

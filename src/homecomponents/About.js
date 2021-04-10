@@ -3,7 +3,7 @@ import logo from '../images/profilepage.jpg'
 //rafce
 const About = () => {
     return (
-        <div className = "container about" id = "aboutId">
+        <div className = "container about" id = "about">
             <div class="row">
                 <div class="col-12 col-md-6">
                     <div className = "d-flex column flex-column">
