@@ -29,12 +29,12 @@ const Footer = () => {
                                 <li><a href="/#about">Acerca de mí</a></li>
                                 <li><a href="/#services">¿Qué puedo hacer?</a></li>
                                 <li><a href="/#experience">Mi experiencia</a></li>
-
                             </ul>
                         </div>
                         <div class="col-md-6 item text">
                             <h3>Contácto</h3>
-                            <p>Si deseas contactarte conmigo por vía telefónica, te pido por favor que primero me mandes un correo o un 
+                            <p>
+                                Si deseas contactarte conmigo por vía telefónica, te pido por favor que primero me mandes un correo o un 
                                 mensaje mediante WhatsApp o SMS.
                             </p>
                             <br/>

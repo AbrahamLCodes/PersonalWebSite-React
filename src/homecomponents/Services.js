@@ -60,7 +60,7 @@ const Services = () => {
                         </div>
                     </div>
 
-                    <div className="col mb-4 d-flex align-items-stretch last-card">
+                    <div className="col mb-4 d-flex align-items-stretch mx-auto">
                         <div className="card text-center border-dark">
                             <img src={IsoLogo} class="card-img-top card-image" alt="WebIcon" />
                             <div class="card-body d-flex flex-column">
