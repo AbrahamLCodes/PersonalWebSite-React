@@ -17,9 +17,8 @@ const soporte = () => {
                     <p>
                         Soy técnico en soporte y mantenimiento a equipo de cómputo. Tengo conocimiento técnico que abarca 
                         desde las computadoras personales hasta los servidores de red. Puedo brindar mis servicios en tu empresa
-                        brindando soporte y ayuda a los diferentes departamentos o áreas que cuenten con equipos de cómputo, equipos de red 
-                        y cableado. En las diapositivas de abajo puedes ver qué areas domino y qué conocimiento tengo en cada una de ellas.
-                        
+                        dando soporte y ayuda a los diferentes departamentos o áreas que cuenten con equipos de cómputo, equipos de red 
+                        o cableado. En las diapositivas de abajo puedes ver qué areas domino y qué conocimiento tengo en cada una de ellas.
                     </p>
                     <br/>
                     <br/>
@@ -148,7 +147,6 @@ const soporte = () => {
                                     </ul>
                                 </div>
                             </div>
-            
                         </div>
                         <a className="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
                             <span className="carousel-control-prev-icon" aria-hidden="true"></span>

@@ -114,6 +114,7 @@ nav ul li {
     padding: 0.8rem;
     color: white;
     margin: 1rem;
+    z-index: 2;
 }
 
 .btn-main-offer:hover {
@@ -122,6 +123,7 @@ nav ul li {
     color: white;
     transition: .2s ease-in-out;
 }
+
 
 /******* PARTICLES *******/
 .tsparticles-canvas-el{
@@ -558,7 +560,7 @@ nav ul li {
 }
 
 .carousel-front {
-    height: 27rem;
+    height: 30rem;
 }
 
 .carousel-back {
@@ -625,7 +627,7 @@ nav ul li {
 }
 
 .carousel-soporte {
-    height: 34rem;
+    height: 37rem;
 }
 
 .carousel-red {

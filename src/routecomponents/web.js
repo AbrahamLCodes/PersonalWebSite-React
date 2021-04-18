@@ -21,15 +21,15 @@ const web = () => {
                     <p>
                         El desarrollo web es posiblemente el futuro del Software en general. La computación en la nube
                         ha tomado una gran importancia en el mercado digital mundial, su popularidad y preferencia está muy por encima
-                        de los sistemas locales o aplicaciones móviles. Soy un desarrollador full-stack Jr web, es decir, puedo levantar
-                        un sistema web distribuido con las tecnologías que conozco. Te invito a que veas cómo trabajo en el área del Front-End y Back-End.
-                </p>
+                        de los sistemas locales o aplicaciones móviles. Soy un desarrollador full-stack Jr web, es decir, soy capaz de levantar
+                        un sistema web distribuido con las tecnologías que domino. Te invito a que veas cómo trabajo en el área Web.
+                    </p>
                     <h3>Front-End</h3>
                     <p>
                         Front-End es todo aquello que el usuario puede ver. La interfaz gráfica, la experiencia de usuario,
                         botones, colores, transiciones, estilos, tipo de letra, formularios, tablas, listas, etc. En las diapositivas de abajo
                         puedes ver qué tecnologías uso para crear soluciones web en el área del Front-End.
-                </p>
+                    </p>
                 </div>
                 <div className="container-fluid">
                     <div id="carouselExampleControls" className="carousel slide carousel-container" data-interval="false">
@@ -53,10 +53,10 @@ const web = () => {
                                         ReactJs es el Framework de Javascript que utilizo para desarrollar y construir interfaces gráficas para la web. Con este Framework
                                         puedo manipular el contenido HTML de una página de manera programática y segmentada para un mantenimiento
                                         más fácil. También puedo adaptarme a otros frameworks como Angular o Vue si es que el proyecto lo requiriera.
-                                </p>
+                                        Este sitio web está hecho con ReactJS.
+                                    </p>
                                 </div>
                             </div>
-
                             <div className="carousel-item">
                                 <div className=" row ">
                                     <div className="d-flex justify-content-end col col-6">
@@ -69,10 +69,11 @@ const web = () => {
                                 <div className="container">
                                     <h4>Framework de estilos</h4>
                                     <p>
-                                        Con Bootstrap puedo diseñar páginas web bonitas y responsivas, es decir, adaptables a pantallas de computadoreas, laptops, tablets o teléfonos.
+                                        Con Bootstrap puedo diseñar páginas web bonitas y responsivas, es decir, adaptables a pantallas de computadoras, laptops, tablets o teléfonos.
                                         Además, también sé usar propiedades CSS para satisfacer necesidades que Bootstrap no podría o con las cuales habría un conflicto. De igual manera, puedo
-                                        adaptarme a otros Frameworks de estilos css como Materialize o Foundation.
-                                </p>
+                                        adaptarme a otros Frameworks de estilos css como Materialize o Foundation. Este sitio web está hecho con Bootstrap, puedes verificar que de hecho, funciona para 
+                                        pantallas de computadora, tablet y celular.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -93,11 +94,10 @@ const web = () => {
                         Operaciones a la base de datos, el manejo de información mediante estructuras de datos, consumo de servicios web, la
                         arquitectura de la API con sus funciones, etc. En la sección de abajo puedes ver qué tecnologías domino para el desarrollo
                         de esta área.
-                </p>
+                    </p>
                 </div>
                 <div className="container-fluid">
                     <div id="carouselExampleControls" className="carousel slide carousel-container" data-interval="false">
-
                         <div className="carousel-inner carousel-back">
                             <div className="carousel-item active">
                                 <div className=" row">
@@ -111,15 +111,12 @@ const web = () => {
                                 <div className="container">
                                     <h4>Lenguajes para Back-End</h4>
                                     <p>
-                                        Con NodeJs o Golang puedo desarrollar las funcionalidades que se necesitarían para manipular operaciones en una base de datos
-                                        y devolver esa respuesta al Front-End para su visualización de manera gráfica. Con NodeJS manejo el framework Express, el cual
-                                        reduce mucho el tiempo de desarrollo de un proyecto mientras que con Go, utilizo Echo y Fiber que serían los equivalentes de
-                                        Express en NodeJS.
-                                </p>
+                                        Con NodeJs o Golang puedo desarrollar módulos lógicos para operaciones del lado del servidor tales como: 
+                                        Respuestas, Peticiones, Ruteo, Operaciones a la base de datos, APIs, Middlewares, etc. Con NodeJS domino el framework express 
+                                        mientras que con GoLang domino el framework Echo.
+                                    </p>
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
                 </div>

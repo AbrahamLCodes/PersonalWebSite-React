@@ -19,7 +19,8 @@ const Services = () => {
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title">Desarrollo Móvil y Desktop</h5>
                                 <p class="card-text">Con Kotlin, Java, Swift, React Native y C# puedo desarrollar Apps nativas e híbridas
-                                    para iOS y Android. Además, Apps multiplataforma para Windows, MacOS y GNU.</p>
+                                    para iOS y Android. Además, Apps multiplataforma para Windows, MacOS y GNU.
+                                </p>
                                 <Link to={"/mobiledesktop"} class="btn mt-auto btn-info card-btn">Más información</Link>
                             </div>
                         </div>
@@ -30,7 +31,8 @@ const Services = () => {
                             <img src={DbIcon} class="card-img-top card-image" alt="WebIcon" />
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title">Bases de Datos y Arquitectura</h5>
-                                <p class="card-text">Con MySql, PostgreSql y Mongo puedo gestionar la información de sistemas existentes o en desarrollo. En la nube o local.</p>
+                                <p class="card-text">Con MySql, PostgreSql y Mongo puedo gestionar la información de sistemas existentes o en desarrollo. En la nube o local.
+                                </p>
                                 <Link to={"/basesarqui"} class="btn mt-auto btn-info card-btn">Más información</Link>
                             </div>
                         </div>
@@ -54,7 +56,8 @@ const Services = () => {
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title">Soporte Técnico y Redes</h5>
                                 <p class="card-text">Tengo conocimiento en redes y soporte técnico para brindar soporte, ayuda y conectividad en los diferentes departamentos
-                                                        de las empresas.</p>
+                                                        de las empresas.
+                                </p>
                                 <Link to={"/soporte"} class="btn mt-auto btn-info card-btn">Más información</Link>
                             </div>
                         </div>

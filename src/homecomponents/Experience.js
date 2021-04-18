@@ -25,9 +25,9 @@ const Experience = () => {
                     <div className = "col col-lg-6 col-md-12 col-sm-12 col-12">
                         <p className = "col-text">Durante febrero del 2021 participé en el desarrollo de una App Android nativa programada con Kotlin para una empresa de seguridad en fraccionamientos y residenciales de Chihuahua. Fui el encargado 
                         de crear los módulos lógicos, el modelado de datos, la funcionalidad de la interfaz gráfica, funciones para generar automáticamente PDFs con el formato
-                        específicado por la empresa y también en el desarrollo de la interfaz gráfica.</p>
+                        específicado por la empresa y también en el desarrollo de la interfaz gráfica.
+                        </p>
                     </div>
-
                     <div className = "col col-lg-6 col-md-12 col-sm-12 col-12 row lower-col">  
                         <div className = "row row-cols-2 ">
                             <div className = "col">
@@ -40,12 +40,9 @@ const Experience = () => {
                             </div>
                         </div>
                     </div>
-
                 </div>
-
                 <hr/>
                 <h3>Software Freelancer</h3>
-
                 <div className = "row experience-article">
                     <div className = "col col-lg-6 col-md-12 col-sm-12 col-12">
                         <div className = "d-flex justify-content-center">
@@ -60,12 +57,9 @@ const Experience = () => {
                         <a href="https://play.google.com/store/apps/developer?id=Software+Tizona" target = "_blank" class="btn btn-info experience-button mt-auto">Ir a la Playstore  <FontAwesomeIcon icon={faPlayCircle} /></a>                                       
                     </div>
                 </div>
-
                 <hr/>
                 <h3>Concursos</h3>
-
                 <div className = "row experience-article">
-
                     <div className = "col col-lg-6 col-md-12 col-sm-12 col-12">
                         <p className = "col-text">Durante mi carrera participé en 4 hackathones de diferentes organizaciones:</p>
                         <ul>
@@ -84,12 +78,9 @@ const Experience = () => {
                         </div>
                     </div>
                 </div>
-
                 <hr/>
                 <h3>Inspector de calidad</h3>
-
                 <div className = "row experience-article">
-                    
                     <div className = "col col-lg-6 col-md-12 col-sm-12 col-12 col-img-container d-flex justify-content-center">
                         <div className = "d-flex justify-content-center">
                             <img className = "portrait-img" src = {Contec}/>
@@ -98,7 +89,8 @@ const Experience = () => {
                     <div className = "col col-lg-6 col-md-12 col-sm-12 col-12 col-content d-flex flex-column lower-row">
                         <p className = "col-text">Antes de convertirme en desarrollador, trabajé varios meses como inspector de calidad en la empresa maquiladora 
                         Conductores Tecnológicos de Juárez, mejor conocida como "Contec". Ahí aprendí aspectos importantes sobre las 
-                        certificaciones ISO tales como:</p>
+                        certificaciones ISO tales como:
+                        </p>
                         <ul>
                             <li>Medición y tolerancia de planos.</li>
                             <li>Normas de operatividad en líneas de producción.</li>
