@@ -124,18 +124,20 @@ nav ul li {
     transition: .2s ease-in-out;
 }
 
-
 /******* PARTICLES *******/
+
 .tsparticles-canvas-el{
     position: absolute;
-    height: 100vh;
-    width: 100vh;
+    height: 95.5vh !important;
+    width: 100vw !important;
     z-index: 1;
 }
 
 /******* ABOUT *******/
 .about {
-    padding: 3rem;
+    margin: 3rem;
+    position: relative;
+    z-index: 2;
 }
 
 .logo-about {
@@ -394,18 +396,21 @@ nav ul li {
 .carousel-inner p {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    font-size: 1.3rem;
-    margin-bottom: 4rem;
-    font-size: medium;
+    font-size: 120% !important;
+    margin-bottom: 4rem !important;
 }
 
 .carousel-mobile {
-    height: 36rem !important;
+    
 }
 
+
+
+
 .carousel-so {
-    height: 33rem !important;
 }
+
+
 
 .carousel-main-imgs-container {
     margin-top: 3rem;
@@ -493,12 +498,13 @@ nav ul li {
     font-size: large;
 }
 
-.carousel-bd {
-    height: 30rem;
-}
 
 .carousel-arqui {
-    height: 25rem;
+    height: 40vh;
+}
+
+.carousel-arqui p {
+    font-size: 100%;
 }
 
 .bases-arqui .carousel-item-secondaryimgs {
@@ -559,13 +565,7 @@ nav ul li {
     font-size: large;
 }
 
-.carousel-front {
-    height: 30rem;
-}
 
-.carousel-back {
-    height: 24rem;
-}
 
 .desarrolloweb .carousel-item-mainimgs {
     width: 15.8%;
@@ -618,6 +618,8 @@ nav ul li {
 .soporte ul {
     margin: auto;
     width: 50%;
+    margin-bottom: 4rem;
+    font-size: 120%;
 }
 
 .soporte li {
@@ -626,18 +628,17 @@ nav ul li {
     margin: auto;
 }
 
-.carousel-soporte {
-    height: 37rem;
-}
-
-.carousel-red {
-    height: 39rem;
-}
-
 .carousel-red p {
     margin: auto;
     width: 90%;
     text-align: left;
+    font-size: 120%;
+    margin-bottom: 1rem !important;
+}
+
+.carousel-red ul {
+    margin-bottom: 4rem;
+    font-size: 120%;
 }
 
 /********** OTROS **********/
@@ -788,6 +789,10 @@ nav ul li {
     
     .carousel-soporte {
         height: 28rem;
+    }
+
+    .carousel-red p {
+        margin-bottom: 0 !important;
     }
 
     .carousel-red {

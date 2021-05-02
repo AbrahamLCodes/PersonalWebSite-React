@@ -18,7 +18,7 @@ const soporte = () => {
                         Soy técnico en soporte y mantenimiento a equipo de cómputo. Tengo conocimiento técnico que abarca 
                         desde las computadoras personales hasta los servidores de red. Puedo brindar mis servicios en tu empresa
                         dando soporte y ayuda a los diferentes departamentos o áreas que cuenten con equipos de cómputo, equipos de red 
-                        o cableado. En las diapositivas de abajo puedes ver qué areas domino y qué conocimiento tengo en cada una de ellas.
+                        o cableado. En las diapositivas de abajo puedes ver que áreas domino y que conocimiento tengo en cada una de ellas.
                     </p>
                     <br/>
                     <br/>
@@ -42,7 +42,7 @@ const soporte = () => {
                                         <li className = "">Configuración de salas y cuartos para el uso óptimo de los equipos.</li>
                                         <li className = "">Limpieza de periféricos.</li>
                                         <li className = "">Mantenimiento a impresoras.</li>
-                                        <li className = "">Ensabmle de cómputo.</li>
+                                        <li className = "">Ensamble de cómputo.</li>
                                         <li className = "">Actualización constante de las tecnologías emergentes (Intel, AMD, Radeon, NVIDIA, ARM).</li>
                                     </ul>
                                 </div>
@@ -92,10 +92,9 @@ const soporte = () => {
                 <div className="container">
                     <h2>Redes y dispositivos</h2>
                     <p>
-                        Tengo conocimiento en configuración, diseño y administración de redes de distintos tipos. Además, también 
-                        sé hacer configuraciones de seguridad y funcionamiento básico en dispositivos CISCO para poder implementarlos en las redes con las que 
-                        se esté trabajando. En las diapositivas de abajo hay más información acerca de qué tipo de redes sé gestionar y qué tipo de 
-                        dispositivos puedo configurar. 
+                        Tengo conocimiento en configuración, diseño y administración de redes de distintos tipos. Además configuro la seguridad y el funcionamiento básico 
+                        en dispositivos CISCO para implementarlos en las redes con las que 
+                        se esté trabajando. En las diapositivas de abajo hay más información acerca de que tipo de redes y dispositivos gestiono. 
                     </p>
                     <br/><br/>
                 </div>
@@ -113,8 +112,8 @@ const soporte = () => {
                                 <div className="container">
                                     <h4>Redes</h4>
                                     <p>Tengo conocimiento en el diseño de redes principalmente LAN, sé identificar topologías y analizar 
-                                        qué tipo de solución de red es la más óptima según sea el caso. Esta es una lista de tipo de redes
-                                        que sé diseñar y configurar:
+                                        que tipo de solución de red es la más óptima según sea el caso. Esta es una lista de tipo de redes
+                                        que diseño y configuro:
                                     </p>
                                     <ul>
                                         <li> Subneteo. </li>
@@ -132,13 +131,12 @@ const soporte = () => {
                                 <div className="container">
                                     <h4>Dispositivos CISCO</h4>
                                     <p>
-                                        Los principales dispositivos con los que he trabajado son: Switch, Router y Servidor. Eso combinado 
+                                        Los principales dispositivos con los que he trabajado son: Switch, Router y Servidor, combinado 
                                         con Modems del proveedor de internet. Puedo crear configuraciones básicas, de seguridad y además, configuración 
                                         de protocolos de red CISCO, tales como:
                                     </p>
                                     <ul>
                                         <li>VLANs.</li>
-                                        <li>VTPs.</li>
                                         <li>VTPs.</li>
                                         <li>STPs.</li>
                                         <li>Soporte a distancia mediante Software remoto.</li>

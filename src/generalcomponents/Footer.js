@@ -34,7 +34,7 @@ const Footer = () => {
                         <div class="col-md-6 item text">
                             <h3>Contácto</h3>
                             <p>
-                                Si deseas contactarte por vía telefónica mándame un correo o un 
+                                Si deseas contactarte por vía telefónica mándame antes un correo o un 
                                 mensaje mediante WhatsApp o SMS.
                             </p>
                             <br/>

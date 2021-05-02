@@ -23,24 +23,24 @@ const others = () => {
                         <img className="carousel-item-mainimg" src={QualitySVG} />
                     </div>
                     <p>
-                        Durante un tiempo trabajé como inspector de calidad en una empresa maquiladora, ahí estuve aprendiendo distintas
-                        cosas acerca de los métodos de inspección de calidad según las normas ISO aplicadas a líneas de producción,
-                        en mi caso para arneses de autos. Sé cómo funcionan las mecanismos de seguridad, de capacitación de personal, de
+                        Trabajé como inspector de calidad en una empresa maquiladora, desarrollé diversos aspectos
+                        acerca de los métodos de inspección de calidad según las normas ISO aplicadas a líneas de producción,
+                        en este caso para arneses de autos. Tengo elementos básicos para mecanismos de seguridad, capacitación de personal,
                         métricas, tolerancias, y conectores eléctricos establecidos por la norma ISO 9000:1.
                         <br/><br />
-                        Esto también me desarrolló la habilidad de comunicación con mis compañeros de trabajo y jefes para tener una
-                        buena convivencia y tener un buen flujo de trabajo al momento de que se presentase algun imprevisto,
-                        problema dentro de la línea de producción, trabajo acumulado o problema entre nosotros.
+                        Tengo habilidad para comunicarme con mis compañeros de trabajo y superiores inmediatos para tener una
+                        buena convivencia y un buen flujo de trabajo al momento de presentarse algun imprevisto tal como:
+                        inconvenientes dentro de la línea, trabajo acumulado o dificultad entre empleados.
                     </p>
                     <h3>Electrónica</h3>
                     <div className="d-flex justify-content-center">
                         <img className="carousel-item-mainimg" src={ConectionSVG} />
                     </div>
                     <p>
-                        Además del Sofwtare, tengo conocimientos acerca de microcontroladores, programación a bajo nivel, soldadura y
-                        componentes electrónicos. Esto lo puedo aplicar para automatizar cosas tangibles tales como plumas, luces, alarmas, y
-                        otras cosas básicas del área de electrónica. Además sé trabajar con sensores de proximidad y de temperatura para controlar 
-                        o gestionar algún sistema enlazado mediante Bluetooth.
+                        Tengo conocimientos básicos en el área de electrónica tales como: microcontroladores, programación a bajo nivel y soldadura
+                        . Esto lo puedo aplicar para automatizar objetos tangibles tales como plumas de estacionamiento, luces, alarmas y
+                        otros. Además sé trabajar con sensores de proximidad y de temperatura para controlar 
+                        o gestionar algún sistema enlazado mediante Bluetooth. Todo esto mediante Arduino principalmente.
                     </p>
                     <br/><br/>
                 </div>
