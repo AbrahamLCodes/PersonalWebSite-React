@@ -13,7 +13,7 @@ import { faPlayCircle } from '@fortawesome/free-solid-svg-icons'
 const Experience = () => {
     return (
         <div className = "container experience" id = "experience">
-                <h2>Mi experiencia</h2>
+                <h2>My experience</h2>
                 <p>
                     Take a look the real projects that I have carried out, the achievements that I have obtained and
                     the events in which I have participated.
@@ -23,7 +23,7 @@ const Experience = () => {
                 <div className = "row experience-article">
 
                     <div className = "col col-lg-6 col-md-12 col-sm-12 col-12">
-                        <p className = "col-text">During February 2021 I participated in the development of a native Android App programmed with Kotlin for a security company in subdivisions and residential areas of Chihuahua. I was the manager
+                        <p className = "col-text">During February 2021 I participated in the development of a native Android App programmed with Kotlin for a security company in Chihuahua. I was the manager
                         of creating logic modules, data modeling, graphical interface functionality, functions to automatically generate PDFs with the format
                         specified by the company and also in the development of the graphical interface.
                         </p>
@@ -58,7 +58,7 @@ const Experience = () => {
                     </div>
                 </div>
                 <hr/>
-                <h3>Concursos</h3>
+                <h3>Hackathons and Tournaments</h3>
                 <div className = "row experience-article">
                     <div className = "col col-lg-6 col-md-12 col-sm-12 col-12">
                         <p className = "col-text">During the university I participated in 4 hackathons of different organizations:</p>

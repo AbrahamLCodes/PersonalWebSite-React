@@ -56,7 +56,7 @@ const Services = () => {
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title">Technical Support & Networks</h5>
                                 <p class="card-text">I have knowledge in networks and technical support to provide support, help and connectivity in the different departments
-                                                        of companies.
+                                                        of your company.
                                 </p>
                                 <Link to={"/soporte-en"} class="btn mt-auto btn-info card-btn">More info</Link>
                             </div>

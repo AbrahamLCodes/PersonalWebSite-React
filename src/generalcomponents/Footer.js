@@ -33,11 +33,6 @@ const Footer = () => {
                         </div>
                         <div class="col-md-6 item text">
                             <h3>Contácto</h3>
-                            <p>
-                                Si deseas contactarte por vía telefónica mándame antes un correo o un 
-                                mensaje mediante WhatsApp o SMS.
-                            </p>
-                            <br/>
                             <ul>
                                 <li>Correo: abraham11999@hotmail.com</li>
                                 <li>Teléfono: (614)599-60-26</li>

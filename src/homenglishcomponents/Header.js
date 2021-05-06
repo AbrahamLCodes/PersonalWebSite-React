@@ -8,9 +8,9 @@ const Header = () => {
                 <h1>Make the computers work for you</h1>
                 <Typed
                 className = "typed-text"
-                strings = {["Android, iOS & Hybrid", "Front-End & Back-End web" ,"Bases de datos SQL y NoSQL", "Linux, Windows & MacOS"]}
-                typeSpeed = {40}
-                backSpeed = {60}
+                strings = {["Android, iOS and Hybrid", "Front-End and Back-End web" ,"SQL and NoSQL databases", "Linux, MacOS and Windows"]}
+                typeSpeed = {60}
+                backSpeed = {70}
                 loop = {true}/>
             <a href = "#footer" className = "btn-main-offer">Contact me</a>
             </div>

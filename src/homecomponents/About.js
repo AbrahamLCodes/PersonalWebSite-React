@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../images/profilepage.jpg'
+import logo from '../images/profileultimate.png'
 //rafce
 const About = () => {
     return (

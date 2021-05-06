@@ -91,8 +91,8 @@ const web = () => {
                     <p>
                     Back-End is everything that the user does not see, everything that happens behind 
                     the user interface such as: Operations to the database, the management of information 
-                    through data structures, consumption of web services, the architecture of the API with its functions, among others. I
-                    n the section below you can see what technologies I master for the development of this area.
+                    through data structures, consumption of web services, the architecture of the API with its functions, among others. 
+                    In the section below you can see what technologies I master for the development of this area.
                     </p>
                 </div>
                 <div className="container-fluid">
